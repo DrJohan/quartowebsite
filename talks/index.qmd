@@ -1,0 +1,7 @@
+---
+title: Talks
+listing:
+  contents: talks.yml
+  type: grid
+  max-description-length: 250
+---
