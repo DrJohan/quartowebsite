@@ -8,10 +8,10 @@ website:
     left: "Copyright 2024, Dr Johan Ibrahim"
     center: "Made with ❤️ and Quarto"
     right:
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com/
+      - text: "{{< iconify fa6-brands github >}}"
+        href: "https://github.com/DrJohan"
+      - text: "{{< iconify fa6-brands twitter >}}"
+        href: "https://twitter.com/DrJohan81"
       
   navbar:
     search: true
@@ -21,14 +21,17 @@ website:
         icon: megaphone
       - text: Blog
         href: blog/index.qmd
+        icon: substack
       - text: Projects
+        icon: kanban
         href: projects/index.qmd
-      - text: "{{< iconify ai google-scholar >}}"
-        href: https://scholar.google.com/
     tools:
+      - icon: twitter
+        href: "https://twitter.com/DrJohan81"
       - icon: github
-        href: github.com
+        href: "https://github.com/DrJohan"
       
+    
 format:
   html:
     theme: [cosmo, styles.scss]
