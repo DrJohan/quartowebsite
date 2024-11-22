@@ -4,13 +4,7 @@ title: "Dr Johan Ibrahim"
 image: profile.jpg
 about: # https://quarto.org/docs/websites/website-about.html
   template: jolla
-  links:
-    - text: "{{< iconify fa6-brands github >}}"
-      href: "https://github.com/DrJohan"
-    - text: "{{< iconify fa6-brands twitter >}}"
-      href: "https://twitter.com/DrJohan81"
-    - text: "{{< iconify fa6-brands linkedin >}}"
-      href: 'https://www.linkedin.com/in/johan-ibrahim'
+  
 ---
 
 {{< lipsum 1 >}}
